@@ -1,10 +1,21 @@
+/**
+* 创建于 2018/2/24
+* 作者: Qianyu
+* 功能: 全局挂载点
+*/
+
+
 <template>
   <div id="app">
     <div class='app-link'>
-      <div v-for='item in routesLinks' :key='item.name' v-if='routesLinks.length'>
-        <router-link :to='item.path' tag='span' class='app-link-route'>{{item.name}}</router-link>
+      <div v-for='item in routesLinks'
+           :key='item.name'
+           v-if='routesLinks.length'
+           class='app-link-route'>
+        <router-link :to='item.path' tag='span'>{{item.name}}</router-link>
       </div>
     </div>
+    
     <hr>
     <router-view/>
   </div>
@@ -23,8 +34,7 @@
         return routes
       }
     },
-    mounted() {
-    }
+    mounted() { }
   }
 </script>
 
@@ -47,6 +57,7 @@
       
       .app-link-route {
         margin: 2px 7px;
+        line-height: 25px;
       }
     }
     

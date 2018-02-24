@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    dafd
+    本人在项目中用到或者遇到的不错的组件库，整理一下
   </div>
 </template>
 
@@ -8,9 +8,7 @@
   export default {
     name: 'HelloWorld',
     data() {
-      return {
-        msg: 'Welcome to Your Vue.js App'
-      }
+      return {}
     }
   }
 </script>
