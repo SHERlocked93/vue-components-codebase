@@ -21,4 +21,5 @@ npm run build --report
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 ## 预览：
-![多项条件选择组件]()
+### 多项条件选择组件
+![多项条件选择组件](https://github.com/SHERlocked93/vue-components-codebase/blob/master/src/assets/%E5%A4%9A%E9%A1%B9%E9%80%89%E6%8B%A9%E7%BB%84%E4%BB%B6.gif)
